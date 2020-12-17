@@ -24,6 +24,9 @@ for(var i = 0, len = data.length; i < len; i++) {
   }
 }
 
+var loops = 0;
+
 result.forEach(function(entry) {
-    console.log(entry.name);
+    console.log(loops.toString() + ". " + entry.name);
+    loops++;
 });
