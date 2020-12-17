@@ -1,4 +1,4 @@
-var data  =contenidojson;
+var data  = contenidojson;
 
 
 var result = [];
