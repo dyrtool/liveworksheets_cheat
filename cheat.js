@@ -1,4 +1,4 @@
-var data  = contenidojson;
+var data = JSON.parse(contenidojson);
 
 
 var result = [];
@@ -25,6 +25,5 @@ for(var i = 0, len = data.length; i < len; i++) {
 }
 
 result.forEach(function(entry) {
-    alert(entry.name)
     console.log(entry.name);
 });
